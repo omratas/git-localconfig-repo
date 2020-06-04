@@ -10,3 +10,13 @@ spring:
 limits-service:
   minimum: 100
   maximum: 1000
+
+
+---
+
+spring:
+  profiles: qa
+
+limits-service:
+  minimum: 222
+  maximum: 2222
